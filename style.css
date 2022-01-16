@@ -1,0 +1,84 @@
+:root{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background: linear-gradient(to right, #52ee5a, #1660ff, #df0fa0, #f0a12a);   
+  ;
+}
+
+  h1{
+    text-align:center;
+    color:#e0a2b9;
+}
+
+  img{
+    width: 50rem
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+  .infoPoke{
+    max-height:20rem;
+    max-width:15rem;
+    background-color:#ab1ed6;
+    margin-bottom:20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #e0a2b9; 
+    padding-top: 10px;
+    justify-content:center
+    }
+
+  .info{
+      padding-left: 5px;
+      padding-bottom:20px;
+      color:#e0a2b9;
+      font-weight: 50;
+      font-size: small;
+      line-height: 2rem;
+    }
+  
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        margin-inline: 1px;
+        width:100%;
+    }
+  
+
+  @media (max-width:1190px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+}
+
+  @media (max-width:1000px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+  }
+ 
+   @media (max-width:750px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+  }
+   
+   @media (max-width:500px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+}
