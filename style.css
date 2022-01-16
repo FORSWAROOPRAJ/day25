@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to right, #a11717, #2a1e2b, #1d0215, #5c3f15);   
+    ;
+  }
+
+.container{
+    
+    
+    color:white;
+}
+
+.corona{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.corona img{
+    width:10rem;
+    height:10rem;
+    object-fit: cover;
+    border-radius:50%
+}
+.corona>div:nth-child(2){
+    padding:1rem 0rem 0rem 1rem;
+}
+form{
+    text-align: center;
+    
+    margin:-1rem 0rem 0rem 0rem;
+}
+.btn1{
+    width:10rem;
+    height:2rem;
+    border-radius: 3em;
+    background-color: rgb(155, 5, 5);
+    
+}
+
+.btn2{
+   
+    width:15rem;
+    margin-top: 15px ;
+    padding-top: contain;
+    height:2rem;
+    border-radius: 8em;
+    background-color: rgb(102, 7, 7)
+}
+.pic{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    width:30rem;
+    height:30rem;
+    object-fit: contain;
+    
+}
+
+@media (min-width:700px){
+    img{
+        width:40rem;
+        height:40rem;
+        object-fit: contain;
+        
+    } 
+    .pic{
+        margin-top:-7rem;
+    }
+}
+
+@media (min-width:900px){
+    img{
+        width:50rem;
+        height:50rem;
+        object-fit: contain;
+        
+    } 
+    .pic{
+        margin-top:-7rem;
+    }
+}
